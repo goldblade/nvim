@@ -24,7 +24,11 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-  source $HOME/.config/nvim/themes/nvcode.vim
+  " source $HOME/.config/nvim/themes/nvcode.vim
+  " source $HOME/.config/nvim/themes/dracula.vim
+  " source $HOME/.config/nvim/themes/nord.vim
+  " source $HOME/.config/nvim/themes/dogrun.vim
+  source $HOME/.config/nvim/themes/gruvbox.vim
   source $HOME/.config/nvim/themes/airline.vim
 
   " Plugin Configuration
