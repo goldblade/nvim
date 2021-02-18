@@ -90,6 +90,12 @@ else
       nnoremap <C-Right> :vertical resize +2<CR>
   endif
 
+  " NerdTree Toggle
+  map <C-o> :NERDTreeToggle<CR>
+
+  " Prettier 
+  nnoremap gp :PrettierAsync<CR>
+
 endif
 
 " Better nav for omnicomplete

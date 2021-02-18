@@ -35,16 +35,11 @@ set updatetime=300                      " Faster completion
 set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
-set guifont=JetBrainsMono\ Nerd\ Font
 
-" New stuff
-" set notimeout nottimeout
-" set scrolloff=1
-" set sidescroll=1
-" set sidescrolloff=1
-" set display+=lastline
-" set backspace=eol,start,indent
-" set nostartofline
+"set guifont=Fira\ Code\ Nerd\ Font
+" set guifont=Fira\ Code:h12
+" set guifont=Fira\ Code:h12
+set guifont=Operator\ Mono\ Lig
 " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " set mmp=1300
 " set autochdir                           " Your working directory will always be the same as your working directory
@@ -55,3 +50,8 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " You can't stop me
 cmap w!! w !sudo tee %
+
+highlight htmlArg gui=italic
+highlight htmlArg cterm=italic
+highlight Comment gui=italic
+highlight Comment cterm=italic
